@@ -1,0 +1,177 @@
+/*********************** ST default styling for inputs/selects ***********************/
+.st-inputs-style input, .st-inputs-style select, .st-inputs-style label {width: 100%; padding: 5px; border-radius: 7px;}
+.st-inputs-style input[type="image"] {width: auto; border-radius:0;}
+.st-inputs-style input, .st-inputs-style select { border: 1px solid #DDDDDD; box-sizing: border-box; background: #FFFFFF; padding:2px;}
+
+.st-inputs-style label {display: block; padding: 5px 0 1px; clear: both;}
+.st-inputs-style p {font-style: italic;}
+
+.st-inputs-style input[type="button"],.st-inputs-style input[type="submit"], input#submit,.st-inputs-style[type="reset"] {-webkit-appearance: none; }
+
+.st-inputs-style input#submit,.st-inputs-style input#process_currencyrate,.st-inputs-style input#merchant_home, .st-inputs-style input#process_reset, .st-inputs-style input#merchant_cancel, .st-inputs-style input#continue { border: 0; padding: 15px; font-weight: bold; color: #FFFFFF; background-color: #393839; cursor: pointer; width: 200px; margin: 3px; white-space: normal;}
+.st-inputs-style input#submit,.st-inputs-style input#process_currencyrate,.st-inputs-style input#merchant_home, .st-inputs-style input#continue{ background-color: #E71B5A;}
+.st-inputs-style input#st_locked,input#st_pending,input#st_paymentredirect  { font-size: inherit; font-style: inherit; margin: 0px; padding: 0!important; width: auto; background-color: transparent; text-decoration: underline; border: none; cursor: pointer; cursor: hand; }
+
+.st-inputs-style #st-billingdobday-dropdown, .st-inputs-style #st-billingdobmonth-dropdown, .st-inputs-style #st-billingdobyear-dropdown, .st-inputs-style #st-customerdobday-dropdown, .st-inputs-style #st-customerdobmonth-dropdown, .st-inputs-style #st-customerdobyear-dropdown {width: 32%;}
+
+.st-inputs-style #st-expirymonth-dropdown, .st-inputs-style #st-expiryyear-dropdown {width: 49%;}
+.st-inputs-style #st-expirymonth-dropdown {float:left;}
+.st-inputs-style #st-expiryyear-dropdown {float:right;}
+.st-inputs-style #st-securitycode-textfield {width: 100px; display: block;}
+
+.st-inputs-style input.required, .st-inputs-style select.required { background-color: #FFC6C7; border: 2px solid #FFB5B5; } /* IE 6 has issues with [type=] */
+.st-inputs-style input[type="checkbox"].required + label, .st-inputs-style input[type="radio"].required + label  { background-color: #FFC6C7; border: 2px solid #FFB5B5; }
+.st-inputs-style input[type="checkbox"].required + label { padding: 2px; }
+
+/*********************** ST default styling for Errors and Messages ***********************/
+
+input[type=email]:invalid, .st-notify-style input.required, .st-notify-style select.required { background-color: #FFC6C7; border: 2px solid #FFB5B5; } /* IE 6 has issues with [type=] */
+.st-notify-style input[type="checkbox"].required + label, .st-notify-style input[type="radio"].required + label  { background-color: #FFC6C7; border: 2px solid #FFB5B5; }
+.st-notify-style input[type="checkbox"].required + label { padding: 2px; }
+
+.st-notify-style #st-block-messagesdiv {padding: 0;}
+.st-notify-style #st-block-messagesdiv div { margin-top: 7px; padding: 4px 4px 4px 28px; border: 2px solid; background-repeat: no-repeat; background-position: 5px 5px; }
+.st-notify-style #st-block-messagesdiv h3 { margin: -3px 0 0 0; }
+.st-notify-style #st-block-messagesdiv p { margin: 4px 0 0 20px; }
+.st-notify-style #st-block-messagesdiv .message-success { background-image: url('/images/ST_4_123/st/success.png'); background-color: #C0F1B1; border-color: #A3EA8E; }
+.st-notify-style #st-block-messagesdiv .message-warning { background-image: url('/images/ST_4_123/st/warning.png'); background-color: #FFF6BF; border-color: #FFD324; }
+.st-notify-style #st-block-messagesdiv .message-error { background-image: url('/images/ST_4_123/st/error.png'); background-color: #FFCDCD; border-color: #FFB5B5; }
+
+/*********************** ST default styling for Messages in blocks ***********************/
+
+.st-blocks-style #st-block-messagesdiv {padding: 0;}
+.st-blocks-style #st-block-messagesdiv div { margin-top: 7px; padding: 4px 4px 4px 28px; border: 2px solid; background-repeat: no-repeat; background-position: 5px 5px; }
+.st-blocks-style #st-block-messagesdiv h3 { margin: -3px 0 0 0; }
+.st-blocks-style #st-block-messagesdiv p { margin: 4px 0 0 20px; }
+.st-blocks-style #st-block-messagesdiv .message-success { background-image: url('/images/ST_4_123/st/success.png'); background-color: #C0F1B1; border-color: #A3EA8E; }
+.st-blocks-style #st-block-messagesdiv .message-warning { background-image: url('/images/ST_4_123/st/warning.png'); background-color: #FFF6BF; border-color: #FFD324; }
+.st-blocks-style #st-block-messagesdiv .message-error { background-image: url('/images/ST_4_123/st/error.png'); background-color: #FFCDCD; border-color: #FFB5B5; }
+
+/*********************** ST default styling for all st-blocks ***********************/
+
+.st-blocks-style { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 0.8em; color:#393839; padding: 0; margin: 0; }
+.st-blocks-style .st-block { padding: 3px; }
+.st-blocks-style .ast { font-weight: bolder; color: #E71B5A;}
+.st-blocks-style a { font-weight: bolder; text-decoration: none; color:#393839; cursor: pointer; }
+.st-blocks-style a:hover {text-decoration: underline; }
+.st-blocks-style div.st-empty { display: none!important;} /* This is intentionally vague and is often less specific */
+
+/*********************** ST default styling for Secure Trading standard pages ***********************/
+
+.st-blocks-style .st-block-standard {border: 1px solid #DDDDDD; background: #F8F8F8; overflow: hidden; padding: 10px; margin: 7px 0 0; *zoom:1;}
+.st-blocks-style .st-block-standard:after {content:""; clear: both; display:block; visibility:hidden; padding:0; margin:0;}
+.st-blocks-style .st-block-standard h2, .st-blocks-style .st-block-standard p {margin: 3px; word-wrap: break-word;}
+.st-blocks-style .st-content { margin: auto; padding: 10px; }
+
+.st-blocks-style #copy-billing-details { padding-left: 15px;}
+.st-blocks-style #copy-billing-details label,.st-blocks-style #copy-billing-details input  { width: auto; font-style: bolder; display: inline-block; zoom: 1; *display: inline;}
+.st-blocks-style #st-block-standard-billingdetails a, .st-blocks-style #st-block-standard-deliverydetails a {font-weight: normal; font-style: italic;}
+
+/*********************** Default sizes ***********************/
+
+.st-blocks-style .st-content { width: 600px; }
+.st-blocks-style .st-layout-halfwidth { width: 275px;}
+.st-blocks-style .st-layout-floatleft {float: left;}
+.st-blocks-style .st-layout-floatright {float: right;}
+.st-blocks-style .st-layout-clear {clear: both;}
+.st-blocks-style .st-layout-detailshead {min-height: 55px;}
+
+/*********************** ST default styling for Secure Trading standard order details ***********************/
+
+.st-blocks-style #st-block-standard-details { background: #FFFFFF; border-color: #DDDDDD; }
+.st-blocks-style #st-poweredby { color: #a4a4a4; font-weight: bold; margin-bottom: 10px;}
+.st-blocks-style #st-block-standard-details #st-logo-inv { display: none;}
+.st-blocks-style #st-block-standard-details #changepaymentmethod #st-block-smallpaymentchoicesdiv { padding:0; vertical-align: top;}
+.st-blocks-style #st-block-standard-details .st-field-div {margin-top: 6px;}
+.st-blocks-style #st-block-standard-details #st-block-orderdetailsdiv {margin-top: 5px;}
+.st-blocks-style #st-block-standard-details #st-block-orderdetailsdiv .st-mainamount-value,.st-blocks-style #st-block-standard-details #st-block-orderdetailsdiv .st-currencyiso3a-value {display: inline-block; zoom: 1; *display: inline;}
+.st-blocks-style #st-block-standard-details #st-block-orderdetailsdiv .st-paymenttypedescription-value {display: none;}
+.st-blocks-style #st-block-standard-details #st-block-orderdetailsdiv .st-currencyiso3a-value label {display: none;}
+.st-blocks-style #st-block-standard-details #st-block-orderdetailsdiv label,.st-blocks-style #st-block-standard-details #st-block-orderdetailsdiv p { display: inline; margin: 0;}
+
+/*********************** ST default styling for auxillary blocks  ***********************/
+
+.st-blocks-style footer { margin-top: 50px; border-top: 5px solid #E4E4E4; text-align: center;}
+.st-blocks-style #st-block-hiddendiv { display: none; }
+.st-blocks-style #st-notification-frame { height: 0px; width: 0px; }
+
+
+/*********************** ST default styling for processing payments alert ***********************/
+
+.st-blocks-style #st-block-processingpaymentdiv { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 999999; background-color: #393839; opacity: 0.9; max-width:100%; padding:0;}
+
+.st-blocks-style #st-block-processingpaymentdiv div { top: 33%; margin: 0 auto; display: block; position: relative; z-index: 999; background: #FFFFFF; border: 2px solid #333333; padding: 25px; opacity: 1;}
+
+@media screen and (min-width: 550px) {
+.st-blocks-style #st-block-processingpaymentdiv div { width: 420px; padding: 50px; background: url('/images/ST_4_109/st/st-inprogress-109.gif') no-repeat scroll 50% 5px #FFFFFF; }
+}
+
+
+/*********************** ST default styling for information displays ***********************/
+
+.st-blocks-style #st-block-billingresponsediv label,.st-blocks-style #st-block-deliveryresponsediv label {display:none;}
+.st-blocks-style #st-block-billingnameresponsediv div, 
+.st-blocks-style #st-block-deliverynameresponsediv div, 
+.st-blocks-style #st-block-billingcontactresponsediv .st-billingtelephonetype-value, 
+.st-blocks-style #st-block-billingcontactresponsediv .st-billingtelephone-value, 
+.st-blocks-style #st-block-deliverycontactresponsediv .st-customertelephonetype-value, 
+.st-blocks-style #st-block-deliverycontactresponsediv .st-customertelephone-value {display: inline-block; zoom: 1; *display:inline;}
+
+/*********************** ST default styling for payment choices ***********************/
+
+.st-blocks-style #st-block-standardpaymentchoicesdiv div, .st-blocks-style #st-block-smallpaymentchoicesdiv div { display: inline-block; zoom: 1; *display: inline; margin: 5px;}
+.st-blocks-style #st-block-standardpaymentchoicesdiv input, .st-blocks-style #st-block-smallpaymentchoicesdiv input { padding: 0; opacity: 0.7; }
+.st-blocks-style #st-block-standardpaymentchoicesdiv input:hover, .st-blocks-style #st-block-smallpaymentchoicesdiv input:hover { opacity: 1; }
+.st-blocks-style #st-block-standardpaymentchoicesdiv input { width: 80px; height: 65px;}
+.st-blocks-style #st-block-smallpaymentchoicesdiv input { width: 50px; height: 30px;}
+
+/*********************** ST default styling for process payment ***********************/
+.st-blocks-style #st-block-processpaymentdiv div { vertical-align: middle;}
+.st-blocks-style #cvv2location img { width: 200px; }
+
+/*********************** ST default styling for Dynamic Currency Conversion ***********************/
+
+.st-blocks-style #st-block-currencydetailsdiv p, .st-blocks-style #st-block-currencyresponsediv p {font-style: normal; margin: 5px;}
+
+.st-blocks-style #st-block-currencydetailsdiv input[type="radio"],.st-blocks-style #st-block-currencydetailsdiv input[type="checkbox"], .st-blocks-style #st-block-currencydetailsdiv label {width: auto; display: inline-block; zoom: 1; *display: inline; font-size: 1.2em;}
+.st-blocks-style #st-block-currencydetailsdiv select {width: auto;}
+.st-blocks-style #st-block-currencydetailsdiv table#dcccurrency td {vertical-align: top; }
+.st-blocks-style #st-block-currencydetailsdiv table#dcccurrency p {padding:0; margin:0;}
+.st-blocks-style #st-block-currencydetailsdiv .dcctitletext {font-weight: bolder;}
+.st-blocks-style #st-block-currencydetailsdiv .indented {margin-left: 25px;}
+.st-blocks-style #st-block-currencyresponsediv p,.st-blocks-style #st-block-currencyresponsediv label {display:inline-block; zoom: 1; *display: inline; width:auto;}
+.st-blocks-style #st-block-currencyresponsediv td {padding:3px 3px 3px 0;}
+.st-blocks-style #dcc-exchange-text p {margin:5px 0;}
+
+/*********************** ST default styling for Errors ***********************/
+
+.st-blocks-style #st-block-paymenterrordiv p {font-style: normal; margin: 5px;}
+
+/*********************** ST default for no JS ***********************/
+
+.nojs .st-layout-detailshead a,
+.nojs #st-block-billingresponsediv,
+.nojs #st-block-deliveryresponsediv,
+.nojs #copy-billing-details {display: none;}
+
+.nojs .st-layout-detailshead {height: auto;}
+
+/*********************** small screen querys ***********************/
+
+@media screen and (max-width: 600px) {
+ .st-blocks-style .st-content { width: 90%; min-width: 250px; }
+ .st-blocks-style .st-layout-halfwidth { width: 100%;}
+
+ .st-blocks-style .st-layout-floatleft,
+ .st-blocks-style .st-layout-floatright,
+ .st-blocks-style #st-block-standard-billingdetails h2,
+ .st-blocks-style #st-block-standard-deliverydetails h2 { float: none; }
+
+ .st-blocks-style .st-layout-detailshead {height: auto;}
+
+}
+
+.st-wallet-wrapper { text-align: center; margin: 10px 5px 0px 5px; }
+.st-applepay-button button, .st-wallet-button img { height: 47px; width: 213px; }
+.st-wallet-hr { margin: auto; }
+.st-wallet-hr:before, .st-wallet-hr:after, .st-wallet-hr::before, .st-wallet-hr::after { content: ""; display: inline-block; vertical-align: middle;  background:#dddddd; height: 1px; width: 40%; margin: 5px; }

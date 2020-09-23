@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/html/Projects/carplatemarket/app/PlateFrame.php</file>
+            <file>file:/var/www/html/Projects/carplatemarket/app/Http/Controllers/Seller/SellerUserController.php</file>
+            <file>file:/var/www/html/Projects/carplatemarket/resources/views/seller/add_plate.blade.php</file>
+            <file>file:/var/www/html/Projects/carplatemarket/database/migrations/2020_01_28_221659_create_plate_frames_table.php</file>
+            <file>file:/var/www/html/Projects/carplatemarket/app/Http/Middleware/SellerCheck.php</file>
+            <file>file:/var/www/html/Projects/carplatemarket/database/migrations/2020_01_20_185900_create_vehicle_types_table.php</file>
+        </group>
+    </open-files>
+</project-private>
